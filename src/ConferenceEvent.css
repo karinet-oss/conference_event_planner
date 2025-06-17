@@ -248,7 +248,7 @@
   .table_item_data tbody tr:first-child:hover {
     background-color: transparent;
   }
-  navbar {
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -256,6 +256,7 @@
     background-color:#133b6a;
     color: white;
     width: 100vw;
+   
   }
   
   .company_logo {
@@ -265,12 +266,12 @@
   }
   .nav_links{
     display: flex;
-    gap: 170px;
+    gap: 50px;
   }
   .left_navbar{
-    width: 60vw;
+    width: 40vw;
     display: flex;
-    gap: 180px;
+    gap: 50px;
   
   }
   .nav_links a {
@@ -289,6 +290,7 @@
     width:200px ;
     display: flex;
     gap: 20px;
+    
   }
   .details_button {
     padding: 8px 16px;
@@ -298,6 +300,7 @@
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
+    min-width: 120px;
     transition: all 0.3s ease;
     /* background-color: transparent; */
   }
@@ -313,7 +316,7 @@
     cursor: not-allowed; /* Change cursor to indicate that the button is not clickable */
   }
   @media (max-width: 700px) {
-    navbar {
+    nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
